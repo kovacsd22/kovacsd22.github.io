@@ -1,0 +1,34 @@
+Body{
+    background-image: url(/Tulajdonos/space.jpg);
+}
+#logo{
+    text-align: center;
+}
+#kep{
+    text-align: center;
+}
+#Category{
+    float: left;
+    padding: 2px;
+    border: 5px solid black;
+    background-color: rgb(148, 148, 148);
+}
+#Search{
+    width: 900px;
+    float: right;
+    border: 5px solid black;
+    background-color: rgb(148, 148, 148);
+    text-align: right;
+    padding: 5px;
+}
+#Main{
+    width: 900px;
+    float: right;
+    border: 5px solid black;
+    background-color: rgb(148, 148, 148);
+    text-align: left;
+    padding: 5px;
+}
+a:hover, a:visited, a:link, a:active{
+    color: black;
+}
