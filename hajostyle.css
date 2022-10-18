@@ -1,5 +1,5 @@
 Body{
-    background-image: url(/Képek/space.jpg);
+    background-color: darkblue;
     width: 1520px;
 }
 #News{
@@ -81,7 +81,7 @@ a:hover, a:visited, a:link, a:active{
     height: 200px;
     margin: 15px 20px 15px 20px;
 }
-.bevezeto{
+#bevezeto{
     font-size: large;
     text-align: justify;
     margin: 30px;
