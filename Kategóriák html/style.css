@@ -1,0 +1,28 @@
+body{
+    background-image:
+    url('hatter.jfif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{color: grey;
+    text-align: left;
+    margin: 100px; 
+
+}
+h2{color: rgb(142, 142, 142);
+    text-align: left;
+    margin: auto; 
+
+}
+img{
+    width: max-content
+    margin: 0,auto;
+    margin: left 600px;
+}
+p{
+    color:white ;
+    font-style: italic;
+}
