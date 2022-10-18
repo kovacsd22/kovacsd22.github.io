@@ -5,10 +5,11 @@ Body{
     text-align: center;
 }
 p{
-    font-size: large;
+    font-size: X-large;
     text-align: justify;
 }
 h2{
+    font-size: xx-large;
     font-weight: bold;
     font-variant: small-caps;
     letter-spacing: 2px;
