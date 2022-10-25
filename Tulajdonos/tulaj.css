@@ -20,7 +20,9 @@ h2{
 #tulaj{
     height: 600px;
 }
-#Category{
+#kep{
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
     height: 700px;
     float: left;
     padding: 2px;
@@ -28,7 +30,8 @@ h2{
     background-color: rgb(148, 148, 148);
 }
 #Search{
-    width: 200px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
     height: 700px;
     float: right;
     border: 5px solid black;
@@ -38,8 +41,7 @@ h2{
 }
 #Main{
     height: 700px;
-    width: 800px;
-    float: right;
+    float: left;
     border: 5px solid black;
     background-color: rgb(148, 148, 148);
     text-align: left;
@@ -47,4 +49,7 @@ h2{
 }
 a:hover, a:visited, a:link, a:active{
     color: black;
+}
+.egesz{
+    margin: 20px 50px 20px 50px;
 }
