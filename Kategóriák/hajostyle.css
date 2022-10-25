@@ -1,0 +1,54 @@
+Body{
+    background-image: url(../Képek/space.jpg);
+}
+.kozep{
+    text-align: center;
+}
+p{
+    font-size: X-large;
+    text-align: justify;
+}
+h2{
+    font-size: xx-large;
+    font-weight: bold;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+#logo{
+    height: 200px;
+}
+#Y{
+    height: 300px;
+    border-radius: 20px;
+}
+.balo{
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    height: 700px;
+    padding: 2px;
+    border: 5px solid black;
+    background-color: rgb(148, 148, 148);
+    float: left;
+}
+.jobbo{
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 5px solid black;
+    background-color: rgb(148, 148, 148);
+    text-align: right;
+    padding: 5px;
+    float: right;
+}
+.leiras{
+    height: 700px;
+    border: 5px solid black;
+    background-color: rgb(148, 148, 148);
+    text-align: left;
+    padding: 20px;
+}
+a:hover, a:visited, a:link, a:active{
+    color: black;
+}
+.egesz{
+    margin: 20px 50px 20px 50px;
+}
