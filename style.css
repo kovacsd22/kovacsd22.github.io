@@ -92,23 +92,26 @@ a:hover, a:visited, a:link, a:active{
 
 .bombazokep{
     height: 200px;
-    width: 200px;
+    width: 250px;
     margin: 15px 20px 15px 20px;
     border: 2px solid
 }
 
 .leiras{
-    text-align: center;
+    text-align: justify;
     font-weight: bold;
+    margin: 15px 20px 15px 20px;
 }
 
 #leirasNev{
     font-size: 18pt;
+    text-align: center;
 }
 
 #leirasKredit{
     font-size: 14pt;
     font-style: italic;
+    text-align: center;
 }
 
 #kozep{
