@@ -89,3 +89,28 @@ a:hover, a:visited, a:link, a:active{
 .egesz{
     margin: 20px 50px 20px 50px;
 }
+
+.bombazokep{
+    height: 200px;
+    width: 200px;
+    margin: 15px 20px 15px 20px;
+    border: 2px solid
+}
+
+.leiras{
+    text-align: center;
+    font-weight: bold;
+}
+
+#leirasNev{
+    font-size: 18pt;
+}
+
+#leirasKredit{
+    font-size: 14pt;
+    font-style: italic;
+}
+
+#kozep{
+    text-align: center;
+}
