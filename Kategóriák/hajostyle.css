@@ -17,35 +17,34 @@ h2{
 #logo{
     height: 200px;
 }
-#tulaj{
-    height: 600px;
+#Y{
+    height: 300px;
+    border-radius: 20px;
 }
-#kep{
+.balo{
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
     height: 700px;
-    float: left;
     padding: 2px;
     border: 5px solid black;
     background-color: rgb(148, 148, 148);
+    float: left;
 }
-#Search{
+.jobbo{
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
-    height: 700px;
-    float: right;
     border: 5px solid black;
     background-color: rgb(148, 148, 148);
     text-align: right;
     padding: 5px;
+    float: right;
 }
-#Main{
+.leiras{
     height: 700px;
-    float: left;
     border: 5px solid black;
     background-color: rgb(148, 148, 148);
     text-align: left;
-    padding: 5px;
+    padding: 20px;
 }
 a:hover, a:visited, a:link, a:active{
     color: black;
