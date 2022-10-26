@@ -94,7 +94,7 @@ a:hover, a:visited, a:link, a:active{
 .bombazokep{
     height: 200px;
     width: 250px;
-    margin: 15px 20px 15px 20px;
+    margin: 20px 20px 20px 20px;
     border: 2px solid
 }
 
@@ -117,4 +117,8 @@ a:hover, a:visited, a:link, a:active{
 
 #kozep{
     text-align: center;
+}
+
+.javitas{
+    width: 300px;
 }
