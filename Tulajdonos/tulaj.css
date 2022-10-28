@@ -18,7 +18,8 @@ h2{
     height: 200px;
 }
 #tulaj{
-    height: 600px;
+    height: 550px;
+    border-radius: 30px;
 }
 #kep{
     border-bottom-left-radius: 30px;
