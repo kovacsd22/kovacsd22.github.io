@@ -38,16 +38,16 @@ Body{
     background-color: rgb(148, 148, 148);
     text-align: left;
     padding: 5px;
+    padding-top: 40px;
 }
 #Searchbox{
     background-color: white;
     float: left;
     height: 34px;
     border: 2px solid black;
-    margin-top: 40px;
     margin-bottom: 40px;
 }
-#Kereses{
+#nagyito{
     width: 30px;
     float: right;
 }
@@ -81,7 +81,11 @@ a:hover, a:visited, a:link, a:active{
 .egesz{
     margin: 20px 50px 20px 50px;
 }
-
+#kereses{
+    float: right;
+    font-weight: bold;
+    margin-top: 5px;
+}
 .bombazokep{
     height: 200px;
     width: 250px;
@@ -112,4 +116,9 @@ a:hover, a:visited, a:link, a:active{
 
 .javitas{
     width: 300px;
+}
+#station{
+    float: right;
+    border-radius: 30px;
+    width: 400px;
 }
