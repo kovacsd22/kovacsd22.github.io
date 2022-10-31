@@ -60,6 +60,7 @@ Body{
 #Main{
     float: left;
     padding: 5px;
+    border-top: 5px solid black;
 }
 a:hover, a:visited, a:link, a:active{
     color: black;
@@ -93,24 +94,22 @@ a:hover, a:visited, a:link, a:active{
     border: 2px solid
 }
 
-.leiras{
-    text-align: justify;
+#leirasNev{
     font-weight: bold;
+    font-size: 18pt;
+    text-align: center;
     margin: 15px 20px 15px 20px;
 }
 
-#leirasNev{
-    font-size: 18pt;
-    text-align: center;
-}
-
 #leirasKredit{
+    font-weight: bold;
     font-size: 14pt;
     font-style: italic;
     text-align: center;
+
 }
 
-#kozep{
+.kozep{
     text-align: center;
 }
 
