@@ -71,6 +71,7 @@ a:hover, a:visited, a:link, a:active{
     height: 200px;
     margin: 15px 20px 15px 20px;
     border: 2px solid;
+    background-color: aliceblue;
 }
 .termekiras{
     height: 200px;
