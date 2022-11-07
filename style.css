@@ -67,16 +67,6 @@ Body{
 a:hover, a:visited, a:link, a:active{
     color: black;
 }
-.termekekkep{
-    height: 200px;
-    margin: 15px 20px 15px 20px;
-    border: 2px solid;
-    background-color: aliceblue;
-}
-.termekiras{
-    height: 200px;
-    margin: 15px 20px 15px 20px;
-}
 
 .bevezeto{
     font-size: large;
@@ -91,24 +81,16 @@ a:hover, a:visited, a:link, a:active{
     font-weight: bold;
     margin-top: 5px;
 }
-.bombazokep{
-    height: 200px;
-    margin: 20px 20px 20px 20px;
-    border: 2px solid
-}
-
 #leirasNev{
     font-weight: bold;
     font-size: 18pt;
     text-align: center;
-    margin: 15px 20px 15px 20px;
 }
 
 #leirasKredit{
     font-weight: bold;
     font-size: 14pt;
     font-style: italic;
-    text-align: center;
 
 }
 
