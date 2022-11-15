@@ -144,5 +144,12 @@ margin: 0;
 }
 
 #magassag{
-    height: 220px;
+    height: 170px;
 }
+
+.container{
+    text-align: center;
+   }
+  .button{
+    float: none;
+  }
