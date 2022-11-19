@@ -1,25 +1,8 @@
+.egesz{
+    margin: 20px 50px 20px 50px;
+}
 Body{
     background-image: url(../Képek/space.jpg);
-}
-.kozep{
-    text-align: center;
-}
-p{
-    font-size: X-large;
-    text-align: justify;
-}
-h2{
-    font-size: xx-large;
-    font-weight: bold;
-    font-variant: small-caps;
-    letter-spacing: 2px;
-}
-#logo{
-    height: 200px;
-}
-#Y{
-    height: 300px;
-    border-radius: 20px;
 }
 .balo{
     border-bottom-left-radius: 30px;
@@ -37,6 +20,7 @@ h2{
     text-align: right;
     padding: 5px;
     height: 700px;
+    float: right;
 }
 .leiras{
     height: 700px;
@@ -44,11 +28,39 @@ h2{
     border: 5px solid black;
     background-image: url(../Képek/auresi.PNG);
     text-align: left;
-    padding: 20px;
+    padding: 40px;
 }
+.kozep{
+    text-align: center;
+}
+p{
+    font-size: X-large;
+    text-align: justify;
+}
+h2{
+    font-size: xx-large;
+    font-weight: bold;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+#logo{
+    height: 200px;
+}
+.kep{
+    height: 300px;
+    border-radius: 30px;
+}
+
 a:hover, a:visited, a:link, a:active{
     color: black;
 }
-.egesz{
-    margin: 20px 50px 20px 50px;
+.penz{
+    height: 50px;
+}
+#szoveg{
+    padding: 100px;
+}
+li{
+    font-size: x-large;
+    margin: 5px;
 }
