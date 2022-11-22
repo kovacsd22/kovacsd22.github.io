@@ -1,5 +1,70 @@
-Body{
-    background-image: url(Képek/space.jpg);
+/*
+.hidden{
+    visibility: hidden;
+    position: absolute;
+}
+
+
+ ajándék css
+    .box {
+    margin: 30px; 
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 150px;
+    height: auto;
+    z-index: -1;
+}
+
+.box.horizTranslate {
+    -webkit-transition: 10s;
+    -moz-transition: 10s;
+    -ms-transition: 10s;
+    -o-transition: 10s;
+    transition: 10s;
+    top: 15%;
+    left: 65%;
+    width: 0px;
+    height: auto;
+    margin-left: 50% !important;
+} */
+
+.x-wing {
+    /* margin: 30px; */
+    height: 150px;
+    width: auto;
+    position: absolute;
+    top: 110%;
+    left: 0%;
+    width: 200px;
+    height: auto;
+    z-index: -1;
+}
+
+.x-wing.translate {
+    -webkit-transition: 10s;
+    -moz-transition: 10s;
+    -ms-transition: 10s;
+    -o-transition: 10s;
+    transition: 10s;
+    top: 30%;
+    left: 70%;
+    width: 0px;
+    height: auto;
+}
+body{
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+    user-select: none;
+    overflow: hidden;
+    font-size: x-large;
+    height: 100vh;
+    background-image: url("StarWars\assets\starwars_bg.jpg");
+    /*background-image: url(Képek/space.jpg);*/
 }
 #News{
     border-radius: 30px;
