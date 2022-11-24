@@ -1,3 +1,81 @@
+const xWings = [];
+
+// const audio = new Audio('./assets/Star Wars Jedi Theme (320 kbps).mp3');
+// audio.play();
+
+let createInterval;
+let moveInterval;
+console.log(window.innerWidth);
+
+const startX = window.width;
+const startY = window.innerHeight + 300;
+
+const targetX = window.width * 0.8;
+const targetY = window.innerHeight * 0.2;
+
+
+
+function xWingHorde(event) {
+    const xWing = document.createElement('img');
+    xWing.classList.add('x-wing');
+    xWing.src = './assets/x-wing.png';
+    document.body.appendChild(xWing);
+    // xWing.style.position = 'absolute';
+
+    // console.log('asdasd');
+    // xWing.style.top = startY + 'px';
+    // xWing.style.left = startX * Math.random + 'px';
+    // xWing.style.width = '150px';
+    // xWing.style.height = 'auto';
+
+    // xWing.style.top = startY + 'px';
+    // xWing.style.left = '-200px';
+    // xWing.style.width = '150px';
+    // xWing.style.height = 'auto';
+
+    xWing.setAttribute('draghable', false);
+
+    xWing.style.filter += `brightness(${Math.random() + 0.2})`;
+
+    xWings.push(xWing);
+}
+
+
+function moveAll() {
+    for (let xWing of xWings) {
+        xWing.classList.add('translate');
+    }
+}
+
+(function start() {
+    createInterval = setInterval(xWingHorde, 800);
+    moveInterval = setInterval(moveAll, 11);
+})()
+
+
+
+var boxOne = document.querySelector('.box');
+
+document.querySelector('.animation').onclick = function() {
+//   if(this.innerHTML === 'Play') 
+//   { 
+//     this.innerHTML = 'Pause';
+    boxOne.classList.add('horizTranslate');
+//   } else {
+//     this.innerHTML = 'Play';
+//     var computedStyle = window.getComputedStyle(boxOne),
+//         marginLeft = computedStyle.getPropertyValue('margin-left');
+//     boxOne.style.marginLeft = marginLeft;
+//     boxOne.classList.remove('horizTranslate');    
+//   }  
+}
+
+
+
+
+
+
+
 document.querySelector("#bombazohtml").onclick()= function(){
     document.querySelector("#Main").innerHTML = bombazo;
 }
@@ -18,12 +96,15 @@ document.querySelector("#rombolohtml").onclick()= function(){
     document.querySelector("#Main").innerHTML = rombolo;
 }
 
-document.querySelector("#bombazohtml").onclick()= function(){
-    document.querySelector("#Main").innerHTML = bombazo;
+document.querySelector("#teherhajohtml").onclick()= function(){
+    document.querySelector("#Main").innerHTML = teherhajo;
 }
 
-document.querySelector("#bombazohtml").onclick()= function(){
-    document.querySelector("#Main").innerHTML = bombazo;
+document.querySelector("#utasszalitohtml").onclick()= function(){
+    document.querySelector("#Main").innerHTML = utasszalito;
+}
+document.querySelector("#vadaszgephtml").onclick()= function(){
+  document.querySelector("#Main").innerHTML = vadaszgep;
 }
 /*
 .onmouseover()
@@ -34,6 +115,178 @@ if (isHidden){
 }
 .classlist.remove(hidden)
 elsodiv = `dfghjkztrertzuiuhgfcfghuiugftzui` sortöréses altgr+7*/
+
+vadaszgep =
+`
+<table>
+                  <tr>
+                    <td>
+                      <div class="card" style="width: 12rem;">
+                        <img id="magassag" class="card-img-top" src="vadaszgepek/kepek/droid-tri-vadász.webp" alt="droid-tri-vadász" title="droid-tri-vadász">
+                        <div class="card-body">
+                          <p class="card-title" id="leirasNev">Droid-Tri-Vadász</p>
+                          <p id="leirasKredit">90.000 Kredit</p>
+                          <a href="/Kategóriák/bombazok/PTB-625.html" class="btn btn-primary button container">Tovább a termékre</a>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="card" style="width: 12rem;">
+                        <img id="magassag" class="card-img-top" src="vadaszgepek/kepek/AurekFighter.webp" alt="AurekFighter" title="AurekFighter">
+                        <div class="card-body">
+                          <p class="card-title" id="leirasNev">Aurek vadászgép</p>
+                          <p id="leirasKredit">75.000 Kredit</p>
+                          <a href="/Kategóriák/bombazok/PTB-625.html" class="btn btn-primary button container">Tovább a termékre</a>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="card" style="width: 12rem;">
+                        <img class="card-img-top" src="vadaszgepek/kepek/Droidstarfighter.webp" alt="Droid-Vadász" title="Droid-Vadász">
+                        <div class="card-body">
+                          <p class="card-title" id="leirasNev">Droid <br> Vadász</p>
+                          <p id="leirasKredit">81.000 Kredit</p>
+                          <a href="/Kategóriák/bombazok/PTB-625.html" class="btn btn-primary button container">Tovább a termékre</a>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="card" style="width: 12rem;">
+                        <img class="card-img-top" src="vadaszgepek/kepek/N-1_BF2.webp" alt="N-1_BF2 Vadászgép" title="N-1_BF2 Vadászgép">
+                        <div class="card-body">
+                          <p class="card-title" id="leirasNev">N-1_BF2 vadászgép</p>
+                          <p id="leirasKredit">65.0000 Kredit</p>
+                          <a href="/Kategóriák/bombazok/PTB-625.html" class="btn btn-primary button container">Tovább a termékre</a>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="card" style="width: 12rem;">
+                        <img id="magassag" class="card-img-top" src="vadaszgepek/kepek/X-Wing_Fighter_(49560729806).jpg" alt="X-Wing Vadászgép" title="X-Wing Vadászgép">
+                        <div class="card-body">
+                          <p class="card-title" id="leirasNev">X-Wing vadászgép</p>
+                          <p id="leirasKredit">95.000 Kredit</p>
+                          <a href="/Kategóriák/bombazok/PTB-625.html" class="btn btn-primary button container">Tovább a termékre</a>
+                        </div>
+                      </div>
+                    </td>
+                </tr>
+              </table>
+`
+utasszalito =
+`
+<table>
+<tr>
+  <td>
+    <div class="card" style="width: 12rem;">
+      <img class="card-img-top" src="Utasszálítók/Képek/CorellianStarShuttleModel-SWBRBD1.webp" alt="CSS-1 Corellian Star Shuttle" title="CSS-1 Corellian Star Shuttle">
+      <div class="card-body">
+        <p id="leirasNev">CSS-1 Corellian Star Shuttle</p>
+        <p  id="leirasKredit">700.000 Kredit</p>
+        <a href="A.wing.html" class="btn btn-primary button container">Tovább a termékre</a>
+      </div>
+    </div>
+  </td>
+  <td>
+    <div class="card" style="width: 12rem;">
+      <img class="card-img-top" src="Utasszálítók/Képek/Genesis_Starliner_-_Flying_away_from_Terra_Prime.jpg" alt="Genesis Starliner" title="Genesis Starliner">
+      <div class="card-body">
+        <p id="leirasNev">Genesis Starliner</p>
+        <p  id="leirasKredit">4.000.000 Kredit</p>
+        <a href="Delta7B.html" class="btn btn-primary button container">Tovább a termékre</a>
+      </div>
+    </div>
+  </td>
+  <td>
+    <div class="card" style="width: 12rem;">
+      <img class="card-img-top" src="Utasszálítók/Képek/PassengerStarliner-BoBFCh5.webp" alt="PassengerStarliner" title="PassengerStarliner">
+      <div class="card-body">
+        <p id="leirasNev">PassengerStarliner</p>
+        <p  id="leirasKredit">2.000.000 Kredit</p>
+        <a href="Eta-2.html" class="btn btn-primary button container">Tovább a termékre</a>
+      </div>
+    </div>
+  </td>
+  <td>
+    <div class="card" style="width: 12rem;">
+      <img class="card-img-top" src="Utasszálítók/Képek/Taylander-shuttle-SWESV.webp" alt="Taylander shuttle" title="Taylander shuttle">
+      <div class="card-body">
+        <p id="leirasNev">Taylander shuttle</p>
+        <p  id="leirasKredit">650.000 Kredit</p>
+        <a href="TIE-Barion.html" class="btn btn-primary button container">Tovább a termékre</a>
+      </div>
+    </div>
+  </td>
+  <td>
+    <div class="card" style="width: 12rem;">
+      <img class="card-img-top" src="Utasszálítók/Képek/veh_ia_1752_040381b2.webp" alt="Lambda-class T-4a Utasszálító" title="Lambda-class T-4a Utasszálító">
+      <div class="card-body">
+        <p id="leirasNev">Lambda-class T-4a Utasszálító</p>
+        <p  id="leirasKredit">240.000 Kredit</p>
+        <a href="TIE-Inter.html" class="btn btn-primary button container">Tovább a termékre</a>
+      </div>
+    </div>
+  </td>
+</tr>
+</table>
+`
+teherhajo =
+`
+<table>
+                      <tr>
+                          <td>
+                            <div class="card" style="width: 12rem;">
+                              <img class="card-img-top" src="Teherhajók/kepek/YT-2400.jfif" alt="PTB-625 Bolygóbombázó" title="PTB-625_bolygóbombázó">
+                              <div class="card-body">
+                                <p class="card-title" id="leirasNev">Outrider YT-2400</p>
+                                <p id="leirasKredit">350.000 Kredit</p>
+                                <a href="PTB-625.html" class="btn btn-primary button container">Tovább a termékre</a>
+                              </div>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="card" style="width: 12rem;">
+                              <img class="card-img-top" src="Teherhajók/kepek/Ebon Hawk.jfif" alt="TIE_Bomber_BF2 Bombázó" title="TIE_Bomber_BF2_bombázó">
+                              <div class="card-body">
+                                <p id="leirasNev">Ebon Hawk</p>
+                                <p id="leirasKredit">430.000 Kredit</p>
+                                <a href="PTB-625.html" class="btn btn-primary button container">Tovább a termékre</a>
+                              </div>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="card" style="width: 12rem;">
+                              <img class="card-img-top" src="Teherhajók/kepek/Eravana.jfif" alt="Y-Wing_Fighter_Bomber" title="Y-Wing_átalakított_bombázó">
+                              <div class="card-body">
+                                <p id="leirasNev">Eravana</p>
+                                <p id="leirasKredit">381.000 Kredit</p>
+                                <a href="PTB-625.html" class="btn btn-primary button container">Tovább a termékre</a>
+                              </div>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="card" style="width: 12rem;">
+                              <img class="card-img-top" src="Teherhajók/kepek/Quadjumper TUG-b13.jfif" alt="Cobalt_Hammer_Bombázó" title="Cobalt_Hammer_bombázó">
+                              <div class="card-body">
+                                <p id="leirasNev">Quadjumper TUG-b13</p>
+                                <p id="leirasKredit">210.000 Kredit</p>
+                                <a href="PTB-625.html" class="btn btn-primary button container">Tovább a termékre</a>
+                              </div>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="card" style="width: 12rem;">
+                              <img class="card-img-top" src="Teherhajók/kepek/VCX-100.jfif" alt="Imperial_Bombázó" title="Imperial_bombázó">
+                              <div class="card-body">
+                                <p id="leirasNev">VCX-100 GHOST</p>
+                                <p id="leirasKredit">300.000 Kredit</p>
+                                <a href="PTB-625.html" class="btn btn-primary button container">Tovább a termékre</a>
+                              </div>
+                            </div>
+                          </td>
+                      </tr>
+                  </table>
+`
 rombolo =
 `
 <table>
