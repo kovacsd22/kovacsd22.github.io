@@ -22,7 +22,7 @@ document.querySelector("#rombolohtml").onmouseover() = function(){
 document.querySelector("#cirkalohtml").onmouseover() = function(){
     document.querySelector("#cirkalohtml").classlist.add("rajta")
 }
-
+console.log(bombazo);
 document.querySelector("#bombazohtml").onclick()= function(){
     bombazo =
   `
@@ -81,7 +81,7 @@ document.querySelector("#bombazohtml").onclick()= function(){
   </tr>
   </table>
   `
-      document.querySelector("#Main").innerHTML == bombazo;
+      document.querySelector("#Main").innerHTML = bombazo;
   }
   
   document.querySelector("#cirkalohtml").onclick()= function(){
@@ -142,7 +142,7 @@ document.querySelector("#bombazohtml").onclick()= function(){
                       </tr>
                   </table>
                   `
-      document.querySelector("#Main").innerHTML == cirkalo;
+      document.querySelector("#Main").innerHTML = cirkalo;
   }
   
   document.querySelector("#csatahajohtml").onclick()= function(){
@@ -203,7 +203,7 @@ document.querySelector("#bombazohtml").onclick()= function(){
                       </tr>
                     </table>
   `
-      document.querySelector("#Main").innerHTML == csatahajo;
+      document.querySelector("#Main").innerHTML = csatahajo;
   }
   
   document.querySelector("#elfogovadaszhtml").onclick()= function(){
@@ -264,7 +264,7 @@ document.querySelector("#bombazohtml").onclick()= function(){
   </tr>
   </table>
   `
-      document.querySelector("#Main").innerHTML == elfogovadasz;
+      document.querySelector("#Main").innerHTML = elfogovadasz;
   }
   
   document.querySelector("#rombolohtml").onclick()= function(){
@@ -325,7 +325,7 @@ document.querySelector("#bombazohtml").onclick()= function(){
                     </tr>
                 </table>
   `
-      document.querySelector("#Main").innerHTML == rombolo;
+      document.querySelector("#Main").innerHTML = rombolo;
   }
   
   document.querySelector("#teherhajohtml").onclick()= function(){
@@ -386,7 +386,7 @@ document.querySelector("#bombazohtml").onclick()= function(){
                         </tr>
                     </table>
   `
-      document.querySelector("#Main").innerHTML == teherhajo;
+      document.querySelector("#Main").innerHTML = teherhajo;
   }
   
   document.querySelector("#utasszalitohtml").onclick()= function(){
@@ -447,7 +447,7 @@ document.querySelector("#bombazohtml").onclick()= function(){
   </tr>
   </table>
   `
-      document.querySelector("#Main").innerHTML == utasszalito;
+      document.querySelector("#Main").innerHTML = utasszalito;
   
   }
   document.querySelector("#vadaszgephtml").onclick()= function(){
