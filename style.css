@@ -93,10 +93,12 @@ body{
     float: left;
     border-right: 5px solid black;
     text-align: right;
-    padding: 2px 5px 2px 5px;
+    padding: 2px 30px 2px 5px;
 }
 #ala{
     text-align: center;
+    color: darkblue;
+    font-weight: bold;
 }
 #Search{
     float: right;
@@ -248,3 +250,9 @@ margin: 0;
     .penz{
         height: 35px;
     }
+
+.siluette{
+    width: 25px;
+    position: absolute;
+    visibility: hidden;
+}
