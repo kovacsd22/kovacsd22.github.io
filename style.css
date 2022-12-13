@@ -250,9 +250,13 @@ margin: 0;
     .penz{
         height: 35px;
     }
-
+.rajta{
+    visibility: hidden;
+}
+.nemrajta{
+    visibility: visible;
+}
 .siluette{
     width: 25px;
     position: absolute;
-    visibility: hidden;
 }

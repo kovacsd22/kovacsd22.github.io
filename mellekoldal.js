@@ -1,27 +1,10 @@
-document.querySelector("#vadaszgephtml").onmouseover() = function(){
-    document.querySelector("#vadaszgephtml").classlist.add("rajta")
+document.querySelector("#vadaszgephtml").onmouseenter() = function(){
+    document.querySelector("#vadaszgephtml").classlist.remove("rajta")
 }
-document.querySelector("#elfogovadaszhtml").onmouseover() = function(){
-    document.querySelector("#elfogovadaszhtml").classlist.add("rajta")
+document.querySelector("#vadaszgephtml").onmousleave() = function(){
+  document.querySelector("#vadaszgephtml").classlist.add("nemrajta")
 }
-document.querySelector("#bombazohtml").onmouseover() = function(){
-    document.querySelector("#bombazohtml").classlist.add("rajta")
-}
-document.querySelector("#teherhajohtml").onmouseover() = function(){
-    document.querySelector("#teherhajohtml").classlist.add("rajta")
-}
-document.querySelector("#utasszalitohtml").onmouseover() = function(){
-    document.querySelector("#utasszalitohtml").classlist.add("rajta")
-}
-document.querySelector("#csatahajohtml").onmouseover() = function(){
-    document.querySelector("#csatahajohtml").classlist.add("rajta")
-}
-document.querySelector("#rombolohtml").onmouseover() = function(){
-    document.querySelector("#rombolohtml").classlist.add("rajta")
-}
-document.querySelector("#cirkalohtml").onmouseover() = function(){
-    document.querySelector("#cirkalohtml").classlist.add("rajta")
-}
+
 console.log(bombazo);
 document.querySelector("#bombazohtml").onclick()= function(){
     bombazo =
