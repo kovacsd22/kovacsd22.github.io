@@ -1,12 +1,12 @@
-document.querySelector("#vadaszgephtml").onmouseenter() = function(){
-    document.querySelector("#vadaszgephtml").classlist.remove("rajta")
+document.querySelector("#vadsz").onmouseenter = function(){
+  document.querySelector("#vadaszgephtml").style.visibility = "visible"
 }
-document.querySelector("#vadaszgephtml").onmousleave() = function(){
-  document.querySelector("#vadaszgephtml").classlist.add("nemrajta")
+document.querySelector("#vadsz").onmousleave = function(){
+  document.querySelector("#vadaszgephtml").style.visibility = "hidden"
 }
 
 console.log(bombazo);
-document.querySelector("#bombazohtml").onclick()= function(){
+document.querySelector("#bombazohtml").onclick= function(){
     bombazo =
   `
   <table>

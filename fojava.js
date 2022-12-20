@@ -1,7 +1,7 @@
 const xWings = [];
 
-//const audio = new Audio('./assets/Star Wars Jedi Theme (320 kbps).mp3');
-//audio.play();
+const audio = new Audio('./assets/Star Wars Jedi Theme (320 kbps).mp3');
+audio.play();
 
 let createInterval;
 let moveInterval;

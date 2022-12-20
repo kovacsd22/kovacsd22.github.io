@@ -137,8 +137,11 @@ width: 100%;
     border-top: 5px solid black;
     margin-top: 10px;
 }
-a:hover, a:visited, a:link, a:active{
-    color: black;
+a:link{
+    color: white;
+}
+.kek{
+    color: darkblue;
 }
 .card{
     border: black 3px solid;
@@ -149,6 +152,8 @@ a:hover, a:visited, a:link, a:active{
 }
 .card-body{
     padding: 5px;
+    position: absolute;
+    bottom: 0;
 }
 .termekekkep{
     height: 200px;
@@ -259,4 +264,11 @@ margin: 0;
 .siluette{
     width: 25px;
     position: absolute;
+}
+#vadaszgephtml{
+    position: relative;
+    float: right;
+}
+#vadsz:hover{
+    
 }
